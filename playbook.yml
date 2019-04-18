@@ -57,6 +57,11 @@
       copy:
         src: "src/index.html"
         dest: "/home/ec2-user/index.html"
+  
+    - name: run docker
+      shell: service docker start 
+      args:
+        executable: /bin/bash
     
     - name: run nginx docker
       shell: docker run -d -t --name nginx -v /home/ec2-user/index.html:/usr/share/nginx/html/index.html -v /home/ec2-user/app.conf:/etc/nginx/conf.d/default.conf -p 80:80 nginx:latest
