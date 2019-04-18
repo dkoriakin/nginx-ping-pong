@@ -1,4 +1,4 @@
-create ping/pong Nginx service using ancible
+create ping/pong Nginx service using ansible
 
 before using you must have ssh key pair and configure security group in you aws region
 
@@ -12,4 +12,4 @@ before using you must have ssh key pair and configure security group in you aws 
 
 2 step run coomand:
 
-	ancible-playbook playbook.yml --private-key=/path/you/private/key.pem
+	ansible-playbook playbook.yml --private-key=/path/you/private/key.pem
