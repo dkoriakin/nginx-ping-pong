@@ -3,14 +3,16 @@
   connection: local
   gather_facts: False
   vars:
-    hostname: Webserver
+#AWS config:
     ec2_access_key: "not set"
     ec2_secret_key: "not set"
-    instance_type: "t2.micro"
-    image: "ami-0080e4c5bc078760e"
     group: "not set"
     region: "us-east-1"
     keypair: "not set"
+#instance config:
+    hostname: Webserver
+    instance_type: "t2.micro"
+    image: "ami-0080e4c5bc078760e"
   tasks:
     - name: make one instance
       ec2: image={{ image }}

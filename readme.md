@@ -1,4 +1,4 @@
-create ping/pong image using ancible
+create ping/pong Nginx service using ancible
 
 before using you must have ssh key pair and configure security group in you aws region
 
