@@ -7,7 +7,7 @@
     ec2_access_key: "not set"
     ec2_secret_key: "not set"
     group: "not set"
-    region: "us-east-1"
+    region: "not set"
     keypair: "not set"
 #instance config:
     hostname: Webserver
