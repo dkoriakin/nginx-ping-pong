@@ -1,0 +1,14 @@
+ 
+    hostname: not set
+    ec2_access_key: "not set"
+    ec2_secret_key: "not set"
+    instance_type: "t2.micro"
+    image: "ami-0080e4c5bc078760e"
+    group: "not set"
+    region: "not set"
+    ec2_availability_zone: "not set"
+    ec2_availability_zone2: "not set"
+    keypair: "set"
+    ami_name: "not set"
+    vpc_id: "vpc-set"
+    subnet_id: "subnet-set"
