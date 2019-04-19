@@ -81,7 +81,7 @@
       register: image  
       with_items: "{{ ec2.instances }}"
 
-    - name: stop one the sandbox instances
+    - name: terminate one instance
       ec2:
         ec2_region: "{{region}}"
         ec2_access_key: "{{ec2_access_key}}"
